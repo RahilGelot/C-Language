@@ -1,7 +1,7 @@
 // 1. Add two numbers 
 
 #include <stdio.h>
-int main() {
+void main() {
     double num1, num2, sum;
 
     printf("Enter the first number: ");
@@ -14,5 +14,5 @@ int main() {
 
     printf("The sum of %.2lf and %.2lf is %.2lf\n", num1, num2, sum);
 
-    return 0;
+    return ;
 }
