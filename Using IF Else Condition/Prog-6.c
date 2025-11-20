@@ -1,6 +1,6 @@
 /* Total, average and grade with fail condition */
 #include <stdio.h>
-int main() {
+void main() {
     double m1,m2,m3;
     printf("Enter marks of three subjects: ");
     if (scanf("%lf %lf %lf", &m1, &m2, &m3)!=3) return 0;
@@ -16,5 +16,5 @@ int main() {
     else if (avg >= 50) printf("Grade = Second\n");
     else if (avg >= 35) printf("Grade = Third\n");
     else printf("Grade = Fail\n");
-    return 0;
+    return ;
 }
