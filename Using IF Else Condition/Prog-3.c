@@ -1,6 +1,6 @@
 /* Find Net salary with tiered allowances/deductions */
 #include <stdio.h>
-int main() {
+void main() {
     double gross;
     printf("Enter gross salary: ");
     if (scanf("%lf", &gross)!=1) return 0;
@@ -10,5 +10,5 @@ int main() {
     else { allowance = 0.0; deduction = 0.0; } /* unspecified for <=5000 */
     double net = gross + allowance - deduction;
     printf("Allowance = %.6g\nDeduction = %.6g\nNet = %.6g\n", allowance, deduction, net);
-    return 0;
+    return ;
 }
