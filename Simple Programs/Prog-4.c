@@ -1,6 +1,6 @@
 /* 4. Divide two numbers */
 #include <stdio.h>
-int main() {
+void main() {
     double num1, num2, sum;
 
     printf("Enter the numerator: ");
@@ -15,6 +15,6 @@ int main() {
 
     printf("Quotient = %.6g\n", num1 / num2);
 
-    return 0;
+    return ;
 }
 
