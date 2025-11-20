@@ -1,6 +1,6 @@
 /* Find Net sales with tiered discount */
 #include <stdio.h>
-int main() {
+void main() {
     double gross;
     printf("Enter gross sales: ");
     if (scanf("%lf", &gross)!=1) return 0;
@@ -10,5 +10,5 @@ int main() {
     else discount_rate = 0.05;
     double net = gross * (1.0 - discount_rate);
     printf("Discount rate = %.2f%%\nNet sales = %.6g\n", discount_rate*100, net);
-    return 0;
+    return ;
 }
